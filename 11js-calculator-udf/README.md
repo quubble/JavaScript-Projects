@@ -1,7 +1,7 @@
 
 # Project Title
 
-The Calcularor Project
+The Calculator Project
 
 1. Create a function to delete operators 
 
