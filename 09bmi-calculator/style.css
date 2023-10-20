@@ -1,0 +1,101 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');  */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #006bff;
+    font-family: 'Kreon', serif;
+    user-select: none;
+    font-family: 'Cabin Sketch', cursive;
+    /* font-family: 'Oleo Script Swash Caps', cursive; */
+    
+}
+
+.title h1 {
+    color: #ece800;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: 'Cabin Sketch', cursive;
+    /* font-family: 'Oleo Script Swash Caps', cursive;  */
+}
+
+.name h2,
+.height h2,
+.weight h2 {
+    color: #ffffffd3;
+    font-size: 40px;
+}
+
+.name input {
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    background: #f4f6ff;
+    color: #ff0000;
+    font-size: 30px;
+    text-align: center;
+}
+
+.height input {
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    background: #f4f6ff;
+    color: #ff0000;
+    font-size: 30px;
+    text-align: center;
+}
+
+.weight input {
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    background: #f4f6ff;
+    color: #ff0000;
+    font-size: 30px;
+    text-align: center;
+    /* width: 337px; */
+}
+
+.submit button {
+    color: #ffffff;
+    background: #006bff;
+    font-size: 30px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 35px;
+    
+    transition: all 0.3s linear;
+}
+
+.submit button:hover {
+    background: #f7f7f7;
+    color: #ff0000;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+}
+
+.submit button:focus {
+    outline: none;
+}
+
+.result h1 {
+    color: #f4f6ff;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+#result {
+    color: #fbff01;
+    font-size: 60px;
+}
+
+#note {
+    color: #ffa200;
+    font-size: 60px;
+}

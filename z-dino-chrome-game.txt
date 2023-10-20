@@ -1,0 +1,12 @@
+Runner.instance_.setSpeed(100000)
+
+Runner.instance_.tRex.setJumpVelocity(20)
+
+Runner.prototype.gameOver = function(){}
+
+chrome://dino/
+
+https://github.com/swasti98/JS-Clock
+
+
+

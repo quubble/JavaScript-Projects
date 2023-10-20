@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+#container {
+    display: d-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .7s ease;
+}
